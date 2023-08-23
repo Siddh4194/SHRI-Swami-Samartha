@@ -5,7 +5,7 @@ import Main from './components/main';
 import { useEffect } from 'react';
 function App() {
   useEffect(()=>{
-    fetch('http://localhost:500/addOne', {
+    fetch('https://ssevent-backend-xwnd-mzpzy0go3-siddh4194.vercel.app/addOne', {
                 method: 'post', // HTTP method is POST
                 headers: {
                   'Content-Type': 'application/json', // Specify that the request body is in JSON format
