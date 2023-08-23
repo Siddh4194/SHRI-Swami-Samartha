@@ -28,7 +28,7 @@ const handleResize = () => {
   setWidth(window.innerWidth);
 };
     useEffect(()=>{
-        fetch("http://localhost:500/testfetch")
+        fetch("https://ssevent-backend-xwnd-mzpzy0go3-siddh4194.vercel.app//testfetch")
         .then(response => response.json())
         .then(data => setdata(data.data))
     },[]);
