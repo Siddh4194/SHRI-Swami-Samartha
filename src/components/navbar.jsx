@@ -129,8 +129,8 @@ if(width > 750){
                                 <button><a href="tel:+918766728199" className='anchorButton'>
                                      <Call/>      
                                 </a></button>
-                                <button><a href="tel:+917709920131" className='anchorButton'>
-                                    <Call/>                               </a></button>
+{/*                                 <button><a href="tel:+917709920131" className='anchorButton'>
+                                    <Call/>                               </a></button> */}
             </div>
         </div>
     );
