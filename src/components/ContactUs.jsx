@@ -27,7 +27,7 @@ export default function Contact() {
         event.preventDefault();
         if(formData.mobile.match("[0-9]{10}")){
             console.log(formData);
-            fetch('https://ssevent-backend-xwnd-mzpzy0go3-siddh4194.vercel.app/contact', {
+            fetch('https://backend-sse.vercel.app/contact', {
                 method: 'post', // HTTP method is POST
                 headers: {
                   'Content-Type': 'application/json', // Specify that the request body is in JSON format
