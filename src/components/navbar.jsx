@@ -1,4 +1,4 @@
-import { AddIcCall, Call, Facebook, Instagram, Mail, Twitter } from '@mui/icons-material';
+import { AddIcCall, Call, Facebook, Instagram, Mail } from '@mui/icons-material';
 import { Button, Popover, Typography } from '@mui/material';
 import React, { useEffect, useState } from 'react';
 
@@ -126,10 +126,10 @@ if(width > 750){
                                 <button><a href="https://mail.google.com/mail/u/0/" className='anchorButton'>
                                     <Mail/>
                                 </a></button>
-                                <button><a href="tel:+917620357772" className='anchorButton'>
-                                    <Twitter/>
+                                <button><a href="tel:+918766728199" className='anchorButton'>
+                                     <Call/>      
                                 </a></button>
-                                <button><a href="tel:+917620357772" className='anchorButton'>
+                                <button><a href="tel:+917709920131" className='anchorButton'>
                                     <Call/>                               </a></button>
             </div>
         </div>
