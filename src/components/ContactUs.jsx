@@ -112,10 +112,10 @@ export default function Contact() {
                                     <div className="ic"><Call/></div>
                                     <div className="icName">Call Me</div>
                                 </a></button>
-                                <button className='col-md-4 col-sm-6 col-6'><a href="tel:+917709920131" className='anchorButton'>
+{/*                                 <button className='col-md-4 col-sm-6 col-6'><a href="tel:+917709920131" className='anchorButton'>
                                     <div className="ic"><Call/></div>
                                     <div className="icName">Call Me</div>
-                                </a></button>
+                                </a></button> */}
                                     </div>
                                 {/* </div>
                             </div> */}
