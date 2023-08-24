@@ -28,7 +28,7 @@ const handleResize = () => {
   setWidth(window.innerWidth);
 };
     useEffect(()=>{
-        fetch("https://backend-sse.vercel.app//testfetch")
+        fetch("https://backend-sse.vercel.app/testfetch")
         .then(response => response.json())
         .then(data => setdata(data.data))
     },[]);
