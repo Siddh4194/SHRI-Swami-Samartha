@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 // import testimonial icon
@@ -9,7 +9,6 @@ import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
 import Card from 'react-bootstrap/Card';
 import 'swiper/css/effect-creative';
-import { EffectCreative } from 'swiper/modules';
 
 
 
@@ -17,7 +16,7 @@ import { EffectCreative } from 'swiper/modules';
 
 // import required modules
 import { FreeMode, Pagination } from 'swiper/modules';
-import { FormatQuoteRounded, FormatQuoteTwoTone } from '@mui/icons-material';
+import { FormatQuoteRounded } from '@mui/icons-material';
 
 export default function Testimonials() {
 
@@ -116,66 +115,3 @@ if(width > 650 ){
             </div>)
 }
 }
-
-
-
-// import React from 'react';
-
-// import 'swiper/swiper-bundle.css';
-// import SwiperCore from 'swiper';
-// import { Swiper, SwiperSlide } from 'swiper/react';
-// import 'swiper/css';
-// import 'swiper/swiper-react'
-// import { Pagination , Navigation} from 'swiper/modules';
-// // Install Swiper modules
-// // SwiperCore.use([Navigation, Pagination, Autoplay]);
-
-// export default function Testimonials(){
-//     return(
-//         <div className="testimonials">
-//             <div className="header">
-//                 <h1>Testimonials</h1>
-//             </div>
-            
-//             <div className="container">
-//                 <div className="row bag">
-//                 <Swiper
-//       spaceBetween={1}
-//       slidesPerView={1}
-//     >              <SwiperSlide>
-//                     
-//                     </SwiperSlide>
-//                     <SwiperSlide>
-//                     <Card className="testCard"style={{ width: '18rem' }}>
-//                         <Card.Body>
-//                             <Card.Title>Sanket Patil</Card.Title>
-//                             <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-//                             <Card.Text>
-//                             Some quick example text to build on the card title and make up the
-//                             bulk of the card's content.
-//                             </Card.Text>
-//                             <Card.Link href="#">Card Link</Card.Link>
-//                             <Card.Link href="#">Another Link</Card.Link>
-//                         </Card.Body>
-//                     </Card>    
-//                     </SwiperSlide>
-//                     <SwiperSlide>
-//                     <Card className="testCard"style={{ width: '18rem' }}>
-//                         <Card.Body>
-//                             <Card.Title>Ganesh Kambale</Card.Title>
-//                             <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-//                             <Card.Text>
-//                             Some quick example text to build on the card title and make up the
-//                             bulk of the card's content.
-//                             </Card.Text>
-//                             <Card.Link href="#">Card Link</Card.Link>
-//                             <Card.Link href="#">Another Link</Card.Link>
-//                         </Card.Body>
-//                     </Card>
-//                     </SwiperSlide>
-//                     </Swiper>
-//                 </div>
-//             </div>         
-//         </div>
-//     )
-// }
