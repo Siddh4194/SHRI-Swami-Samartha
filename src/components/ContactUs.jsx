@@ -34,7 +34,7 @@ export default function Contact() {
                 },
                 body: JSON.stringify({
                   name: formData.name,
-                  mobile: formData.mobile,
+                  number: formData.mobile,
                   event: formData.event,
                   place: formData.place,
                 }), // Convert the data to a JSON string and send it in the request body
