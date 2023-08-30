@@ -5,7 +5,7 @@ import Main from './components/main';
 import { useEffect } from 'react';
 function App() {
   useEffect(() => {
-    document.title = 'SS Event'; // Set your desired title here
+    document.title = 'SS Event';
   }, []);
   useEffect(()=>{
     fetch('https://backend-sse.vercel.app/addOne', {
