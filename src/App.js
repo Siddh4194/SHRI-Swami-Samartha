@@ -4,7 +4,7 @@ import './components/computer.css';
 import Main from './components/main';
 import { useEffect } from 'react';
 function App() {
-  seEffect(() => {
+  useEffect(() => {
     document.title = 'SS Event'; // Set your desired title here
   }, []);
   useEffect(()=>{
